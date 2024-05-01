@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".ManageLinks">
+
+    <!-- YouTube URL link field -->
+    <EditText
+        android:id="@+id/youtubeLinkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YouTube URL"/>
+
+    <!-- Play button -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Play"/>
+
+    <!-- Add to playlist button -->
+    <Button
+        android:id="@+id/addToPlaylistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to playlist"/>
+
+    <!-- My playlist button -->
+    <Button
+        android:id="@+id/myPlaylistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My playlist"/>
+
+</LinearLayout>
